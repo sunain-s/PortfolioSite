@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial_scale=1.0">
+    <title>Sunain Syed</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="https://github.com/Asianguy123" target="_blank"><img src="images/github_logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">PROJECTS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Sunain Syed</h1>
+        <p>That is me. This is my website.</p>
+        <a href="" class="hero-btn">click me</a>
+    </div>
+    </section> 
+
+<!-- -----About----- -->
+<section class="about">
+    <h1>About Me</h1>
+    <p>I am a 16 year old student in the United Kingdom. I am a hard working and logical person, who tries to look at situations as they come and attempt to find the best route to achieve my aim. I am currently a Python programmer, with some knowledge of web development (HTML, CSS, JS) and app development (C#). Looking to contribute to projects using my skills and build upon my current knowledge and ability.</p>
+    <div class="row">
+        <div class="about-col">
+            <h3>My Qualifications</h3>
+            <p>At GCSE Level:<br/><br/>9 GCSEs: grade 8-9 (A* - A**) in all, including 9s in Maths and 3 Sciences<br/>A in AS Philosophy and Ethics<br/>A in FSMQ: Additional Maths</p>
+        </div>
+        <div class="about-col">
+            <h3>Aspirations</h3>
+            <p>I aspire to become a professional programmer (in whatever field I choose), making enough for a comfortable life. I want to learn as much as possible about my field and what surrounds it, and I intend to leave a positive imprint on the world through my actions.</p>
+        </div>
+    </div>
+</section>
+
+<!-- -----Projects----- -->
+<section class="projects">
+    <h1>My Projects</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, numquam!</p>
+    <div class="row">
+        <div>
+            <img src="images/python_gif.gif" width="300">
+        </div>
+        <div class="projects-col">
+            <p>hello</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- ------JavaScript for toggle menu----- -->
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
