@@ -13,29 +13,29 @@
 .bg{
     animation:slide 3s ease-in-out infinite alternate;
     background-image: linear-gradient(-60deg, #333333 50%, #4fc4d1 50%);
-    bottom:0;
-    left:-50%;
+    bottom: 0;
+    left: -50%;
     opacity: .95;
     position: fixed;
     right:-50%;
-    top:0;
-    z-index:-1;
+    top: 0;
+    z-index: -1;
 }
   
 .bg2{
-    animation-direction:alternate-reverse;
-    animation-duration:4s;
+    animation-direction: alternate-reverse;
+    animation-duration: 4s;
 }
   
 .bg3{
-    animation-duration:5s;
+    animation-duration: 5s;
 }
 @keyframes slide {
     0%{
-      transform:translateX(-25%);
+      transform: translateX(-25%);
     }
     100%{
-      transform:translateX(25%);
+      transform: translateX(25%);
     }
 }
 nav{
@@ -85,15 +85,15 @@ nav img{
     text-align: center;
 }
 .text-box h1{
-    font-size: 62px;
+    font-size: 74px;
 }
 .text-box p{
     margin: 10px 0 40px;
-    font-size: 14px;
+    font-size: 16px;
     color: #fff;
 }
 .btn-box{
-    width: 90%;
+    width: 20%;
     color: #fff;
     position: relative;
     top: 50%;
@@ -106,7 +106,7 @@ nav img{
     text-decoration: none;
     color: #fff;
     border: 2px solid #fff;
-    padding: 12px 34px;
+    padding: 12px 20px;
     font-size: 13px;
     background: transparent;
     position: relative;
@@ -219,6 +219,17 @@ h3{
 .projects img{
     padding-top: 30px;
     padding-bottom: 30px;
+}
+.projects h1{
+    color: #fff;
+}
+.projects p1{
+    font-size: 18px;
+    color: #eee;
+}
+.projects p2{
+    font-size: 14px;
+    color: #777;
 }
 .projects-col{
     flex-basis: 60%;
