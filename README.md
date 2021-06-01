@@ -9,3 +9,4 @@ A responsive site designed from scratch using HTML5, CSS3 and some basic JavaScr
 - Laying out a webpage through CSS
 - How to account for multiple devices and create a responsive website using CSS
 - Using some JavaScript to create dynamic animation e.g. mobile side nav bar
+- Creating a CSS Animation header
