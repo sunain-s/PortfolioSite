@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
 .header{
     height: 100vh;
     width: 100%;
@@ -10,12 +11,13 @@
     background-size: cover;
     position: relative;
 }
+
 .bg{
     animation:slide 3s ease-in-out infinite alternate;
-    background-image: linear-gradient(-60deg, #333333 50%, #4fc4d1 50%);
+    background-image: linear-gradient(-70deg, #000 60%, #4fc4d1 30%);
     bottom: 0;
     left: -50%;
-    opacity: .95;
+    opacity: .5;
     position: fixed;
     right:-50%;
     top: 0;
@@ -30,6 +32,7 @@
 .bg3{
     animation-duration: 5s;
 }
+
 @keyframes slide {
     0%{
       transform: translateX(-25%);
@@ -38,31 +41,37 @@
       transform: translateX(25%);
     }
 }
+
 nav{
     display: flex;
     padding: 2% 3%;
     justify-content: space-between;
     align-content: center;
 }
+
 nav img{
     width: 150px;
     padding-top: 5px;
 }
+
 .nav-links{
     flex: 1;
     text-align: right;
 }
+
 .nav-links ul li{
     list-style: none;
     display: inline-block;
     padding: 18px 12px;
     position: relative;
 }
+
 .nav-links ul li a{
     color: #fff;
     text-decoration: none;
     font-size: 15px;
 }
+
 .nav-links ul li::after{
     content: '';
     width: 0%;
@@ -72,26 +81,59 @@ nav img{
     margin: auto;
     transition: 0.5s;
 }
+
 .nav-links ul li:hover::after{
     width: 100%;
 }
+
 .text-box{
     width: 90%;
     color: #fff;
     position: absolute;
-    top: 50%;
+    top: 47.5%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    cursor: default;
 }
+
 .text-box h1{
-    font-size: 74px;
+    font-size: 72px;
+    display: inline-block;
+    float: none;
 }
-.text-box p{
-    margin: 10px 0 40px;
+
+.slogan{
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: default;
+}
+
+.slogan p{
     font-size: 16px;
     color: #fff;
+    display: inline-block;
+    float: none;
 }
+
+.animated {
+    background: linear-gradient(to right, #fff 50%, #f44336 50%);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease-out;
+}
+
+.animated:hover {
+    font-size: 100px;
+    background-position: -100%;
+}
+
 .btn-box{
     width: 20%;
     color: #fff;
@@ -101,6 +143,7 @@ nav img{
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
 .hero-btn{
     display: inline-block;
     text-decoration: none;
@@ -111,31 +154,34 @@ nav img{
     background: transparent;
     position: relative;
     cursor: pointer;
-}
-.hero-btn:hover{
-    background: #000;
-    /* color: #37d0c8; */
-    border: 2px solid #fff;
-    color: #fff;
-    font-weight: 800;
-    font-size: 16px;
     transition: 0.5s;
 }
+
+.hero-btn:hover{
+    background: #000;
+    border: 3px solid #fff;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
 nav .fas{
     display: none;
 }
 
 @media(max-width: 700px){
     .text-box h1{
-        font-size: 36px;
+        font-size: 40px;
     }
+
     nav img{
         width: 100px;
         padding-top: 10px;
     }
+
     .nav-links ul li{
         display: block;
     }
+
     .nav-links{
         position: absolute;
         background: #f44336;
@@ -147,6 +193,7 @@ nav .fas{
         z-index: 2;
         transition: 0.75s;
     }
+
     nav .fas{
         display: block;
         color: #fff;
@@ -154,6 +201,7 @@ nav .fas{
         font-size: 22px;
         cursor: pointer;
     }
+
     .nav-links ul{
         padding: 30px;
     }
@@ -166,10 +214,12 @@ nav .fas{
     text-align: left;
     padding-top: 100px;
 }
+
 h1{
     font-size: 36px;
     font-weight: 600;
 }
+
 p{
     color: #777;
     font-size: 16px;
@@ -177,11 +227,13 @@ p{
     line-height: 22px;
     padding: 10px;
 }
+
 .row{
     margin-top: 3%;
     display: flex;
     justify-content: space-between;
 }
+
 .about-col{
     flex-basis: 48%;
     background: #fff3f3;
@@ -191,14 +243,17 @@ p{
     box-sizing: border-box;
     transition: 0.5s;
 }
+
 h3{
     text-align: left;
     font-weight: 600;
     margin: 20px 10px;
 }
+
 .about-col:hover{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
+
 @media(max-width: 700px){
     .row{
         padding-top: 20px;
@@ -207,30 +262,32 @@ h3{
 }
 
 /*-----Projects-----*/
-.projects-sect{
-    width: 100%;
-}
 .projects{
     width: 80%;
     margin: auto;
     text-align: left;
     padding-top: 50px;
 }
+
 .projects img{
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 .projects h1{
     color: #fff;
 }
+
 .projects p1{
     font-size: 18px;
     color: #eee;
 }
+
 .projects p2{
     font-size: 14px;
     color: #777;
 }
+
 .projects-col{
     flex-basis: 60%;
     background: #fff3f3;
