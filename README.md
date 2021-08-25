@@ -1,5 +1,5 @@
 # PortfolioSite
-A responsive site designed from scratch using HTML5, CSS3 and some basic JavaScript; designed as a portfolio to use in university and job applications
+A site designed from scratch using HTML5 and CSS3; designed as a portfolio to use in university and job applications
 
 # Contents
 - Home page with header
