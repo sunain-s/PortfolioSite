@@ -9,19 +9,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <section class="header">
-        <nav>
-            <a href="https://github.com/Asianguy123" target="_blank"><img src="images/github_logo.png"></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fas fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">PROJECTS</a></li>
-                    <li><a href="">CONTACT</a></li>
-                </ul>
-            </div>
-            <i class="fas fa-bars" onclick="showMenu()"></i>
-        </nav>
+
+<!-- -----Header----- -->
+<section class="header">
+    <nav>
+        <a href="https://github.com/Asianguy123" target="_blank"><img src="images/github_logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">PROJECTS</a></li>
+            </ul>
+        </div>
+    </nav>
     <div class="bg"></div>
     <div class="bg bg2"></div>
     <div class="bg bg3"></div>
@@ -29,8 +28,7 @@
         <h1 class="animated">A</h1><h1 class="animated">s</h1><h1 class="animated">i</h1><h1 class="animated">a</h1><h1 class="animated">n</h1><h1 class="animated">g</h1><h1></h1><h1 class="animated">u</h1><h1 class="animated">y</h1><h1 class="animated"></h1><h1 class="animated"></h1>
     </div>
     <div class="slogan"><p>That is me. This is my website.</p></div>
-    <div class="btn-box"><a href="" class="hero-btn">Fun Button, Click For Fun!</a></div>
-    </section> 
+</section> 
 
 <!-- -----About----- -->
 <section width="100%" style="background-color: #fff;">
@@ -40,7 +38,7 @@
         <div class="row">
             <div class="about-col">
                 <h3>My Qualifications</h3>
-                <p>At GCSE Level:<br/><br/>9 GCSEs: grade 8-9 (A* - A**) in all, including 9s in Maths and 3 Sciences<br/>A in AS Philosophy and Ethics<br/>A in FSMQ: Additional Maths</p>
+                <p>At GCSE Level:<br/><br/>9 GCSEs: 7 9s 2 8s - including 9s in Maths, 3 Sciences, Computer Science<br/>A in AS Philosophy and Ethics<br/>A in FSMQ: Additional Maths<br/><br/>Click to view full qualifcations.</p>
             </div>
             <div class="about-col">
                 <h3>Aspirations</h3>
@@ -51,31 +49,59 @@
 </section>
 
 <!-- -----Projects----- -->
-<section width="100%" style="background-color: #333333;">
-    <section class="projects">
-        <h1>My Projects</h1>
-        <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, numquam!</p1>
-        <div class="row">
-            <div>
-                <img src="images/pong.png" width="100" style="background-color: #fff;">
-            </div>
-            <div class="projects-col">
-                <p2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque cumque sequi soluta molestiae quasi minima, molestias adipisci ratione. Est veniam libero obcaecati maiores reiciendis voluptatibus, hic autem laboriosam explicabo quidem quia? Laudantium voluptatem et alias, ducimus cupiditate repellendus tenetur officiis, aut quaerat vitae, nam iure. Laboriosam nesciunt voluptatum minima omnis!</p2>
-            </div>
+<section class="projects">
+    <h1>My Projects</h1>
+    <p1>Below are some of my top projects and a brief summary of them. Select a project to see a more in depth report on each program.</p1>
+    <div class="row">            
+        <div class="projects-col">
+            <h2>Pong</h2> 
+            <p2>A version of the classic Atari Pong, which includes Singleplayer Ranked and Practice modes against an AI, Local Multiplayer and Highscore Leaderboard. Developed in Python using Pygame module as an introduction to graphical programming and basic use of sprites.<br/><br/>Difficulty: </p2>
+            <i class="fas fa-star"></i></i><i class="far fa-star"></i></i><i class="far fa-star"></i></i><i class="far fa-star"></i></i><i class="far fa-star"></i>
         </div>
+    </div>
+    <div class="row">            
+        <div class="projects-col">
+            <h2>Password Strength Tester</h2>
+            <p2>A basic Windows Forms application made using C# and the .NET framework, designed in Visual Studio. Simple user interface with input box, colour and text output. First C# project and its main purpose was to teach me syntax and logic of C# compared to other languages e.g. Python (static versus dynamic etc.).<br/><br/>Difficulty: </p2>
+            <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+        </div>
+    </div>
+    <div class="row">            
+        <div class="projects-col" style="margin-bottom: 70px;">
+            <h2>Flappy Bird</h2>
+            <p2>A twist on the classic Flappy Bird, using custom character heads. Includes Endless Side Scroll gameplay, Character Select Menu, Loading Screen, All time Local Highscores and In Game Music. Developed with Python using Pygame module as an introduction to sprite animation, game music and character menus.<br/><br/>Difficulty: </p2>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+        </div>
+    </div>
+</section>
+
+<!-- -----Contact----- -->
+<section width="100%" style="background-color: #ffffff;">
+    <section class="contact">
+        <h1>Contact Me</h1>
+        <p1>In order to contact me, please fill in the below form and submit your message. I will attempt to respond to the legitimate queries as soon as possible.</p1>
+        <form action="form_handler.php" method="POST">
+            <div class="contact-col">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter your email address" required>
+                <input type="text" name="subject" placeholder="Enter your subject" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+            </div>
+            <div class="contact-col">
+                <button type="submit" class="red-btn">Send Message</button>
+            </div>
+        </form>
     </section>
 </section>
 
-<!-- ------JavaScript for toggle menu----- -->
-<script>
-    var navLinks = document.getElementById("navLinks")
-    function showMenu(){
-        navLinks.style.right = "0";
-    }
-    function hideMenu(){
-        navLinks.style.right = "-200px";
-    }
-</script>
+<!-- -----Footer----- -->
+<section class="footer">
+    <div style="vertical-align: middle;">
+        <h4 style="color: #fff;">This website was made by Asianguy_123, the source code can be viewed and accessed on my GitHub or by clicking the button below.</h4>
+        <div class="btn-box"><a href="https://github.com/Asianguy123/PortfolioSite" class="hero-btn" target="_blank">Webpage Source Code</a></div>
+    </div>
+</section>
+
 
 </body>
 </html>
