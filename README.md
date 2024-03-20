@@ -1,9 +1,9 @@
 # PortfolioSite
-A site designed from scratch using HTML5 and CSS3; designed as a portfolio to use in university and job applications
+A portfolio site built with pure HTML and CSS
 
-Contact form currently not in action due to hosting plan not including email forwarding services
+**Webpage is currently not active**
 
-# Contents
+## Contents
 - Home page with header
 - Navigation bar
 - Github image link
@@ -12,7 +12,7 @@ Contact form currently not in action due to hosting plan not including email for
 - Contact form
 - Footer with link to source code
 
-# What I learnt
+## What I learnt
 - Creating a header and nav bar using HTML and CSS
 - Laying out a webpage through CSS
 - Creating a CSS Animation background
